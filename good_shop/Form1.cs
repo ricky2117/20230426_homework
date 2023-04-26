@@ -28,7 +28,7 @@ namespace good_shop
 
 		private void button1_Click(object sender, EventArgs e)
 		{
-			//List<Products> products = new List<Products>();
+			//List<Products> products = new List<Products>();12
 			foreach (DataGridViewRow row in dataGridView1.Rows)
 			{
 				string name = dataGridView1.CurrentRow.Cells["product_name"].Value.ToString();
@@ -38,6 +38,7 @@ namespace good_shop
 				//products.Add(new Products(name, count, price));
 			}
 			//Products_statistics<Products> obj = new Products_statistics<Products>(products);
+			//123151515
 		}
 
 		private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
